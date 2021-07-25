@@ -4,59 +4,31 @@
 	<title></title>
 </head>
 <body>
-	<!-- TradingView Widget BEGIN -->
+<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://de.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> von TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/stocks-usa/" rel="noopener" target="_blank"><span class="blue-text">Stock Market Today</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
   {
-  "symbols": [
-    {
-      "description": "DAX ",
-      "proName": "XETR:DAX"
-    },
-    {
-      "description": "DOW JONES",
-      "proName": "CBOE:DJX"
-    },
-    {
-      "description": "NASDAQ",
-      "proName": "NASDAQ:IXIC"
-    },
-    {
-      "description": "BTC/EUR",
-      "proName": "BITFINEX:BTCEUR"
-    },
-    {
-      "description": "ETH/EUR",
-      "proName": "ETH/KRAKEN:ETHEUR"
-    },
-    {
-      "description": "Northern Data AG",
-      "proName": "SWB:DE000A0SMU87"
-    },
-    {
-      "description": "Coinbase",
-      "proName": "NASDAQ:COIN"
-    },
-    {
-      "description": "Compass Pathways",
-      "proName": "NASDAQ:CMPS"
-    },
-    {
-      "description": "Abcellera Biologics",
-      "proName": "NASDAQ:ABCL"
-    },
-    {
-      "description": "Qualcomm ",
-      "proName": "NASDAQ:QCOM"
-    }
-  ],
-  "showSymbolLogo": true,
   "colorTheme": "light",
+  "dateRange": "12M",
+  "exchange": "US",
+  "showChart": true,
+  "locale": "en",
+  "largeChartUrl": "",
   "isTransparent": true,
-  "displayMode": "adaptive",
-  "locale": "de_DE"
+  "showSymbolLogo": false,
+  "width": "400",
+  "height": "600",
+  "plotLineColorGrowing": "rgba(74, 206, 155, 1)",
+  "plotLineColorFalling": "rgba(255, 0, 0, 1)",
+  "gridLineColor": "rgba(240, 243, 250, 0)",
+  "scaleFontColor": "rgba(120, 123, 134, 1)",
+  "belowLineFillColorGrowing": "rgba(0, 255, 0, 0.12)",
+  "belowLineFillColorFalling": "rgba(234, 153, 153, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
 }
   </script>
 </div>
